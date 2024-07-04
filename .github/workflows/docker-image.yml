@@ -28,7 +28,7 @@ jobs:
     - name: Build Docker image
       run:
         docker build -t jean1991/docker-graphql:1.0.0 .
-        docker push jean1991/docker-graphql:latest .
+        docker build jean1991/docker-graphql:latest .
 
     - name: Push Docker image
       run:
