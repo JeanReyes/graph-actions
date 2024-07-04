@@ -28,7 +28,7 @@ jobs:
         echo "Fin login"
 
     - name: Build Docker image
-      run: 
+      run:
         docker build -t jean1991/docker-graphql:1.0.0 .
 
     - name: Push Docker image
